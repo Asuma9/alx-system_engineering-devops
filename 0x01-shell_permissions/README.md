@@ -1,1 +1,1 @@
-Whoami- Prints username of current user
+Id -GN - Printall groups the current user is part of
