@@ -1,1 +1,1 @@
-Change group owner -chgrp
+Change owner and group owner
