@@ -1,1 +1,1 @@
-Id -GN - Printall groups the current user is part of
+su chown new_user file - Change file owner
