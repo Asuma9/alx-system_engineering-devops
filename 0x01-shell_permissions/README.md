@@ -1,1 +1,1 @@
-Grant multiple permissions
+Owner & Group no permissions, Others all permissions
