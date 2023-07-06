@@ -1,1 +1,1 @@
-sudo - switching user
+Whoami- Prints username of current user
