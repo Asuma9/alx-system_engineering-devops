@@ -1,1 +1,1 @@
-777 grant rights to everybody
+751 grant rights to everybody
