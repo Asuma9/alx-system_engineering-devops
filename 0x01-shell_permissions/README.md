@@ -1,1 +1,1 @@
-Create directory with permissions
+Change group owner -chgrp
