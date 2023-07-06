@@ -1,1 +1,1 @@
-Grant owner all permi.. Group rx & others wx
+Referencing the mode of another
