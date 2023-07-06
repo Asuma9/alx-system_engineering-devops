@@ -1,1 +1,1 @@
-751 grant rights to everybody
+Grant multiple permissions
