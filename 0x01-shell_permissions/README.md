@@ -1,1 +1,1 @@
-Owner & Group no permissions, Others all permissions
+Grant owner all permi.. Group rx & others wx
