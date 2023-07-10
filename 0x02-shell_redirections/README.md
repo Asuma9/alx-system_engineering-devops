@@ -8,4 +8,6 @@ Cat file1 file - Display contents of 2 files
 
 tail -n filename - Display the last n lines of filename 
 
-head -n filename - Display the first n lines of filename 
+head -n filename - Display the first n lines of filename
+
+head -n filename | tail +n 
