@@ -39,4 +39,5 @@ grep -i 'n*' - display all lines of filename starting with a letter.
 tr 'A' 'Z' | 'c' 'e' - repalceA for Z and c for e from input respectively.
 
 tr -d 'cC' or sed 's/[cC]//g' - remove specified letters
- 
+
+rev - script to reverse output 
