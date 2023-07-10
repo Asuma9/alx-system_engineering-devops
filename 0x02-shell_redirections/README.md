@@ -17,3 +17,5 @@ head -n filename | tail +n
 ls -la > filename - save current state of directory
 
 tail -qn 1 iacta- duplicate last line of iacta file
+
+rm -R * - remove file with specified parten
