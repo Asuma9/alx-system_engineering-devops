@@ -13,3 +13,5 @@ head -n filename - Display the first n lines of filename
 head -n filename | tail +n
 
 \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)- Creating silent files 
+
+ls -la > filename - save current state of directory
