@@ -18,4 +18,6 @@ ls -la > filename - save current state of directory
 
 tail -qn 1 iacta- duplicate last line of iacta file
 
-find . -type f -name '*.js' -delete - remove file with specified parten
+find . -type f -name "*.js'" -delete - remove file with specified parten
+
+find . -type d -not -name '.' | wc -l - delete all directories and sub-directories in the current directory
