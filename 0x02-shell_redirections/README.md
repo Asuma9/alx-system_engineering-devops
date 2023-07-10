@@ -25,3 +25,5 @@ find . -type d -not -name '.' | wc -l - delete all directories and sub-directori
 ls -t | head 10 - print newest 10 files  in the current directory
 
 uniq -u filename - prints only unique elements of filename
+
+grep -l 'root' filename - displays lines that match specified partten
