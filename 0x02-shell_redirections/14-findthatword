@@ -1,2 +1,2 @@
 #!/bin/bash
-grep l  "root" /etc/fstab /etc/passwd /etc/mtab /etc/passwd
+grep i "root" /etc/fstab /etc/passwd /etc/mtab /etc/passwd
