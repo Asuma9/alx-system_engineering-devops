@@ -23,3 +23,5 @@ find . -type f -name '*.js' -delete - remove file with specified parten
 find . -type d -not -name '.' | wc -l - delete all directories and sub-directories in the current directory
 
 ls -t | head 10 - print newest 10 files  in the current directory
+
+uniq -u filename - prints only unique elements of filename
