@@ -40,4 +40,6 @@ tr 'A' 'Z' | 'c' 'e' - repalceA for Z and c for e from input respectively.
 
 tr -d 'cC' or sed 's/[cC]//g' - remove specified letters
 
-rev - script to reverse output 
+rev - script to reverse output
+
+cut -d ':' -f 1,6 /etc/passwd | sort - prints sorted list of all users 
