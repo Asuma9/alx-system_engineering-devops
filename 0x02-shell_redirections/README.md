@@ -10,4 +10,6 @@ tail -n filename - Display the last n lines of filename
 
 head -n filename - Display the first n lines of filename
 
-head -n filename | tail +n 
+head -n filename | tail +n
+
+\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)- Creating silent files 
