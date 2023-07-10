@@ -29,3 +29,5 @@ uniq -u filename - prints only unique elements of filename
 grep -l 'root' filename - displays lines that match specified partten
 
 grep -i 'bin' -A n - display number of lines that contain the pattern bin
+
+grep -A 3 'pattern'  filename - print lines after matching pattern 
