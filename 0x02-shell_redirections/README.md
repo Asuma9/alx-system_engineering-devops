@@ -15,3 +15,5 @@ head -n filename | tail +n
 \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)- Creating silent files 
 
 ls -la > filename - save current state of directory
+
+tail -qn 1 iacta- duplicate last line of iacta file
