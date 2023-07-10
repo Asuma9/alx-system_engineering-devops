@@ -42,4 +42,6 @@ tr -d 'cC' or sed 's/[cC]//g' - remove specified letters
 
 rev - script to reverse output
 
-cut -d ':' -f 1,6 /etc/passwd | sort - prints sorted list of all users 
+cut -d ':' -f 1,6 /etc/passwd | sort - prints sorted list of all users
+
+find . -empty | rev | cut -d '/' -f 1 | rev - find all empty files and directories in the current directory and subdirectories. 
