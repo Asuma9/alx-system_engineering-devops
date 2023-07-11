@@ -10,4 +10,4 @@ echo $((value+$filename)) - command to print the sum of a value passed to a valu
 echo $(($POWER/$RULE)) - command to recall environment variables ofr arithmetic execution
 echo $((BREATH**LOVE)) - display an exponent
 echo $((2#$BINARY)) - Convert number stored in BINARY variable to decimal from base 2
-
+echo {a..z}{a..} | tr " " "\n" | grep -v "oo" - Print alphabetical number combinations except for 'oo'
