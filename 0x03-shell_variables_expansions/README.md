@@ -14,4 +14,4 @@ echo {a..z}{a..} | tr " " "\n" | grep -v "oo" - Print alphabetical number combin
 printf "%.2f" $NUM | sort - print a number with 2 decimal places and store it in NUM
 printf "%x\n" $DECIMAL
 tr A-Za-z N-ZA-Mn-za-m - command to encode and decode an ASCII text using rot13 encryption
-
+paste -d, -- | cut -d, -f1 - print every other line from the input starting with the first line
