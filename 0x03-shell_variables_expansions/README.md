@@ -14,4 +14,5 @@ echo {a..z}{a..} | tr " " "\n" | grep -v "oo" - Print alphabetical number combin
 printf "%.2f" $NUM | sort - print a number with 2 decimal places and store it in NUM
 printf "%x\n" $DECIMAL
 tr A-Za-z N-ZA-Mn-za-m - command to encode and decode an ASCII text using rot13 encryption
-paste -d, -- | cut -d, -f1 - print every other line from the input starting with the first line
+paste - - | cut -f1 - print every other line from the input starting with the first line
+printf "%o\n" $((5#$(echo $WATER | tr water 01234))) +$((5#$( echo $STIR | tr stir 01234 ))))) | tr 01234567 bestschool - add 2 numbers stored in the environment with different bases and then store them in the combined base
