@@ -12,3 +12,4 @@ echo $((BREATH**LOVE)) - display an exponent
 echo $((2#$BINARY)) - Convert number stored in BINARY variable to decimal from base 2
 echo {a..z}{a..} | tr " " "\n" | grep -v "oo" - Print alphabetical number combinations except for 'oo'
 printf "%.2f" $NUM | sort - print a number with 2 decimal places and store it in NUM
+printf "%x\n" $DECIMAL
