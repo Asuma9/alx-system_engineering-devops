@@ -13,4 +13,5 @@ echo $((2#$BINARY)) - Convert number stored in BINARY variable to decimal from b
 echo {a..z}{a..} | tr " " "\n" | grep -v "oo" - Print alphabetical number combinations except for 'oo'
 printf "%.2f" $NUM | sort - print a number with 2 decimal places and store it in NUM
 printf "%x\n" $DECIMAL
-tr A-Za-z N-ZA-Mn-za-m
+tr A-Za-z N-ZA-Mn-za-m - command to encode and decode an ASCII text using rot13 encryption
+
