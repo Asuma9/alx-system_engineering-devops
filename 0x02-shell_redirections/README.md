@@ -23,3 +23,4 @@ rev - script to reverse output
 cut -d ':' -f 1,6 /etc/passwd | sort - prints sorted list of all users
 find . -empty | rev | cut -d '/' -f 1 | rev - find all empty files and directories in the current directory and subdirectories.
 find -type f -name '*.gif' |rev|cut -d '/' -f 1 | cut -d '.' -f 2- |rev|LC_ALL=C sort -f - list all files with '.gif' extension in the current directory and all its sub-directories
+cut -c 1 |paste -s -d'
