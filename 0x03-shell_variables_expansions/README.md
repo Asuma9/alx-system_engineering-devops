@@ -9,3 +9,5 @@ varname='value' - command that creates a global variable
 echo $((value+$filename)) - command to print the sum of a value passed to a value stored in the environment variable'
 echo $(($POWER/$RULE)) - command to recall environment variables ofr arithmetic execution
 echo $((BREATH**LOVE)) - display an exponent
+echo $((2#$BINARY)) - Convert number stored in BINARY variable to decimal from base 2
+
