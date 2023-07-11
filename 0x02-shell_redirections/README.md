@@ -23,5 +23,5 @@ rev - script to reverse output
 cut -d ':' -f 1,6 /etc/passwd | sort - prints sorted list of all users
 find . -empty | rev | cut -d '/' -f 1 | rev - find all empty files and directories in the current directory and subdirectories.
 find -type f -name '*.gif' |rev|cut -d '/' -f 1 | cut -d '.' -f 2- |rev|LC_ALL=C sort -f - list all files with '.gif' extension in the current directory and all its sub-directories
-cut -c 1 |paste -s -d'
+echo $(cut -c 1 | tr -d '\n') - Script to decode acrostics that use the first letter of each line
 tail -n +2 |cut -f -1|sort -k 1 |uniq -c| sort -rnk 1|head -n 11| rev | cut -d '' -f -1 | rev - script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests
