@@ -15,4 +15,4 @@ printf "%.2f" $NUM | sort - print a number with 2 decimal places and store it in
 printf "%x\n" $DECIMAL
 tr A-Za-z N-ZA-Mn-za-m - command to encode and decode an ASCII text using rot13 encryption
 paste - - | cut -f1 - print every other line from the input starting with the first line
-printf "%o\n" $((5#$(echo $WATER | tr water 01234))) +$((5#$( echo $STIR | tr stir 01234 ))))) | tr 01234567 bestschool - add 2 numbers stored in the environment with different bases and then store them in the combined base
+echo $(printf %o $((5#$(echo $WATER | tr 'water' '01234'))) +$((5#$( echo $STIR | tr 'stir' '01234' ))))) | tr '01234567' 'bestschool') - add 2 numbers stored in the environment with different bases and then store them in the combined base
